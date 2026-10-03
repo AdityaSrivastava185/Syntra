@@ -15,7 +15,7 @@ const navItemClass = "px-5 py-3";
 const Navbar = () => {
   return (
     <div className="w-full border-b border-[#27272b]">
-      <nav className="container">
+      <nav className="container  bg-[#1a1a1e]">
         <div className="max-w-full  border-[#27272b]">
           <div className="flex items-center justify-between">
             <div className="flex items-center divide-x divide-[#27272b]">
