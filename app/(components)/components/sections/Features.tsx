@@ -4,17 +4,17 @@ const deployItems = [
   {
     title: "Private infrastructure.",
     description:
-      "Run Tensorly within your own cloud, data center, or edge environment. Keep your models and data under your control .",
+      "Run Syntra within your own cloud, data center, or edge environment. Keep your models and data under your control .",
   },
   {
-    title: "Tensorly Cloud.",
+    title: "Syntra Cloud.",
     description:
-      "Build and deploy AI applications on Tensorly's managed infrastructure with scalable compute, APIs, and tools for production workloads.",
+      "Build and deploy AI applications on Syntra's managed infrastructure with scalable compute, APIs, and tools for production workloads.",
   },
   {
     title: "Cloud partners.",
     description:
-      "Run Tensorly through supported cloud environments and use your existing infrastructure and cloud resources to deploy AI workloads.",
+      "Run Syntra through supported cloud environments and use your existing infrastructure and cloud resources to deploy AI workloads.",
   },
 ];
 
