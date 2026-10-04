@@ -34,7 +34,7 @@ const Product = () => {
                     <p className="text-3xl">{item.title}</p>
                   </div>
 
-                  <div className="py-3 md:py-0">
+                  <div className="py-3 md:py-0 block md:hidden xl:block">
                     <p>{item.description}</p>
                   </div>
                   <button className="bg-[#1a1a1e] text-foreground px-5 py-3 rounded-xl mt-3">

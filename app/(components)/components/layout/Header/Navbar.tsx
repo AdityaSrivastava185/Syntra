@@ -23,7 +23,7 @@ const Navbar = () => {
                 <h1>Syntra</h1>
               </div>
 
-              <div className="hidden md:flex divide-x divide-[#27272b] border-r border-[#27272b]">
+              <div className="hidden xl:flex divide-x divide-[#27272b] border-r border-[#27272b]">
                 {navItems.map((item) => (
                   <div key={item} className={navItemClass}>
                     <Link href="/">{item}</Link>
