@@ -53,7 +53,7 @@ const FooterCta = () => {
 
       {/* Noise overlay */}
       <div
-        className="pointer-events-none absolute inset-0 z-10 size-full bg-[url('/noise-rectangle.png')] bg-repeat bg-size-[160px_160px] mix-blend-plus-lighter"
+        className="pointer-events-none absolute inset-0 z-10 size-full bg-[url('/images/noise-rectangle.png')] bg-repeat bg-size-[160px_160px] mix-blend-plus-lighter"
         aria-hidden="true"
       />
     </div>

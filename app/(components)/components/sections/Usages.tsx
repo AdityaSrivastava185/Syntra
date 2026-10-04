@@ -60,8 +60,8 @@ const Usages = () => {
     <section className="w-full">
       <div className="border-b border-[#27272b]">
         <div className="container">
-          <div className="py-7 pt-32">
-            <h2 className="text-5xl">How enterprise teams use Syntra Vibe.</h2>
+          <div className="py-7 pt-32 px-4 xl:px-0">
+            <h2 className="text-4xl xl:text-5xl">How enterprise teams use Syntra Vibe.</h2>
           </div>
         </div>
       </div>
@@ -70,10 +70,10 @@ const Usages = () => {
         <div className="container">
           <section className="section w-full md:px-10">
             <div className="mx-auto w-full max-w-432">
-              <div className="grid grid-cols-1 md:grid-cols-10 md:gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-11 xl:grid-cols-10 md:gap-6">
                 {/* LEFT */}
-                <div className="hidden md:col-span-2 md:block">
-                  <div className="sticky top-10 mt-10 overflow-hidden rounded-xl border border-[#27272b]">
+                <div className="hidden md:col-span-3 xl:col-span-2 md:block">
+                  <div className="sticky top-10 my-10 overflow-hidden rounded-xl border border-[#27272b]">
                     <UsageWorkTitleCard title="Accelerated development cycle" />
                     <UsageWorkTitleCard title="Enhance code quality" />
                     <UsageWorkTitleCard title="Streamline onboarding" />

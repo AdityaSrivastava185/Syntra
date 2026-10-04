@@ -21,7 +21,7 @@ const Hero = () => {
             <div className="w-full xl:px-10">
               <p className="text-[#6d6d78]">Solutions Coding</p>
 
-              <h1 className="py-3 text-4xl leading-tight sm:text-5xl xl:pt-7 xl:text-6xl">
+              <h1 className="py-3 text-4xl md:max-w-3xl xl:max-w-fit md:text-balance leading-tight sm:text-5xl xl:pt-7 xl:text-6xl">
                 Transform how your teams build software.
               </h1>
             </div>
@@ -37,7 +37,7 @@ const Hero = () => {
               "
             >
               <div className="flex w-full flex-col gap-7 pb-7">
-                <p className="text-lg leading-relaxed sm:text-xl">
+                <p className="text-lg leading-relaxed sm:text-xl md:max-w-xl xl:max-w-full">
                   Designed for organizations that demand both cutting-edge
                   performance and enterprise-grade security.
                 </p>

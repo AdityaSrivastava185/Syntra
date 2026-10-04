@@ -22,19 +22,19 @@ const Features = () => {
   return (
     <section className="w-full border-b border-[#27272b]">
       <div className="container">
-        <div className="flex flex-col gap-7 py-10">
-          <div className="pt-10">
-            <h2 className="text-5xl">
+        <div className="px-4 xl:px-0 flex flex-col gap-7 pb-10 xl:pb-0 xl:py-10">
+          <div className="pt-10 md:max-w-lg xl:max-w-full">
+            <h2 className=" text-4xl xl:text-5xl">
               Purpose-built coding models, at your fingertips.
             </h2>
           </div>
-          <div>
+          <div className="md:max-w-lg xl:max-w-full">
             <p className="text-xl">
               Our unique mix of models delivers an unmatched combination of
               lightning-fast completions , deep code understanding
             </p>
           </div>
-          <div className="border-y border-[#27272b]">
+          <div className="md:border-y border-[#27272b]">
             <div className="grid grid-cols-1 md:gap-0 md:grid-cols-3 px-4 md:px-0">
               {deployItems.map((item) => (
                 <div

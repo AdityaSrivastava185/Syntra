@@ -29,9 +29,9 @@ const Workflows = () => {
   return (
     <section className="w-full border-b border-[#27272b]">
       <div className="container">
-        <div className="py-10 flex flex-col gap-7">
-          <div className="flex flex-col gap-10">
-            <h2 className="text-5xl">Your developer team's advantage</h2>
+        <div className="px-4 xl:px-0 py-10 flex flex-col gap-7">
+          <div className="flex flex-col gap-7 xl:gap-10 md:max-w-lg xl:max-w-full">
+            <h2 className=" text-4xl xl:text-5xl">Your developer team's advantage</h2>
             <p className="text-xl">
               Built for code generation and understanding, optimized for
               developer workflows.
