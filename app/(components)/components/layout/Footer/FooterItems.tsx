@@ -61,7 +61,7 @@ const FooterItems = () => {
             {footerItems.map((section) => (
               <div
                 key={section.title}
-                className="border-b border-[#27272b] sm:border-x sm:border-b lg:border-x lg:border-b-0"
+                className="border-b border-border-primary sm:border-x sm:border-b lg:border-x lg:border-b-0"
               >
                 <div className="p-5 sm:p-6 md:p-7">
                   <div className="pb-3">
@@ -89,8 +89,8 @@ const FooterItems = () => {
       </div>
 
       {/* Bottom footer */}
-      <div className="border border-[#27272b]">
-        <div className="container flex flex-col gap-5 border-x border-[#27272b] p-5 sm:p-6 md:flex-row md:items-center md:justify-between md:p-7">
+      <div className="border border-border-primary">
+        <div className="container flex flex-col gap-5 border-x border-border-primary p-5 sm:p-6 md:flex-row md:items-center md:justify-between md:p-7">
           {/* Source */}
           <div className="text-lg">
             <span>

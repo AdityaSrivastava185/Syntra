@@ -58,7 +58,7 @@ const autonomousWorkItems = [
 const Usages = () => {
   return (
     <section className="w-full">
-      <div className="border-b border-[#27272b]">
+      <div className="border-b border-border-primary">
         <div className="container">
           <div className="py-7 pt-32 px-4 xl:px-0">
             <h2 className="text-4xl xl:text-5xl">How enterprise teams use Syntra Vibe.</h2>
@@ -66,14 +66,14 @@ const Usages = () => {
         </div>
       </div>
 
-      <div className="border-b border-[#27272b]">
+      <div className="border-b border-border-primary">
         <div className="container">
           <section className="section w-full md:px-10">
             <div className="mx-auto w-full max-w-432">
               <div className="grid grid-cols-1 md:grid-cols-11 xl:grid-cols-10 md:gap-6">
                 {/* LEFT */}
                 <div className="hidden md:col-span-3 xl:col-span-2 md:block">
-                  <div className="sticky top-10 my-10 overflow-hidden rounded-xl border border-[#27272b]">
+                  <div className="sticky top-10 my-10 overflow-hidden rounded-xl border border-border-primary">
                     <UsageWorkTitleCard title="Accelerated development cycle" />
                     <UsageWorkTitleCard title="Enhance code quality" />
                     <UsageWorkTitleCard title="Streamline onboarding" />
@@ -82,7 +82,7 @@ const Usages = () => {
                 </div>
 
                 {/* RIGHT */}
-                <div className="col-span-1 border-[#27272b] md:col-span-8 md:border-x">
+                <div className="col-span-1 border-border-primary md:col-span-8 md:border-x">
                   {autonomousWorkItems.map((item) => (
                     <UsageCard key={item.title} {...item} />
                   ))}

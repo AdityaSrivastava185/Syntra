@@ -13,7 +13,7 @@ const Hero = () => {
               px-4 sm:px-6 md:px-8
               xl:flex-row xl:items-end xl:justify-between
               xl:gap-7
-              xl:border-x xl:border-[#27272b]
+              xl:border-x xl:border-border-primary
               xl:px-10
             "
           >
@@ -29,7 +29,7 @@ const Hero = () => {
             {/* Right */}
             <div
               className="
-                w-full border-[#27272b]
+                w-full border-border-primary
                 xl:h-full xl:max-w-[30%]
                 xl:border-l xl:border-t-0
                 xl:px-10 xl:pt-0
@@ -51,8 +51,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-full border-y border-[#27272b]">
-        <div className="container bg-[#1a1a1e] p-5 md:p-7 xl:p-10">
+      <div className="w-full border-y border-border-primary">
+        <div className="container bg-background-secondary p-5 md:p-7 xl:p-10">
           <Image
             src="/images/hero-image01.webp"
             width={1700}

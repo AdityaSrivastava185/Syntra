@@ -27,7 +27,7 @@ const supportCarditems = [
 
 const Workflows = () => {
   return (
-    <section className="w-full border-b border-[#27272b]">
+    <section className="w-full border-b border-border-primary">
       <div className="container">
         <div className="px-4 xl:px-0 py-10 flex flex-col gap-7">
           <div className="flex flex-col gap-7 xl:gap-10 md:max-w-lg xl:max-w-full">
@@ -43,7 +43,7 @@ const Workflows = () => {
                 <Link
                   href={""}
                   key={item.title}
-                  className="flex flex-col items-start justify-between h-[420px] bg-[#1a1a1e] p-7 border border-[#27272b] group md:hover:bg-transparent"
+                  className="flex flex-col items-start justify-between h-[420px] bg-background-secondary p-7 border border-border-primary group md:hover:bg-transparent"
                 >
                   <div>
                     <p className="text-2xl">{item.title}</p>

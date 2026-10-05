@@ -14,16 +14,16 @@ const navItemClass = "px-5 py-3";
 
 const Navbar = () => {
   return (
-    <div className="w-full border-b border-[#27272b]">
-      <nav className="container  bg-[#1a1a1e]">
-        <div className="max-w-full  border-[#27272b]">
+    <div className="w-full border-b border-border-primary">
+      <nav className="container  bg-background-secondary">
+        <div className="max-w-full  border-border-primary">
           <div className="flex items-center justify-between">
-            <div className="flex items-center divide-x divide-[#27272b]">
-              <div className={`${navItemClass} border-l border-[#27272b]`}>
+            <div className="flex items-center divide-x divide-border-primary">
+              <div className={`${navItemClass} border-l border-border-primary`}>
                 <h1>Syntra</h1>
               </div>
 
-              <div className="hidden xl:flex divide-x divide-[#27272b] border-r border-[#27272b]">
+              <div className="hidden xl:flex divide-x divide-border-primary border-r border-border-primary">
                 {navItems.map((item) => (
                   <div key={item} className={navItemClass}>
                     <Link href="/">{item}</Link>
@@ -32,9 +32,9 @@ const Navbar = () => {
               </div>
             </div>
 
-            <div className="items-center divide-x divide-[#27272b] flex">
+            <div className="items-center divide-x divide-border-primary flex">
               <Link
-                className={`${navItemClass} border-l border-[#27272b] hidden md:block`}
+                className={`${navItemClass} border-l border-border-primary hidden md:block`}
                 href=""
               >
                 Start building

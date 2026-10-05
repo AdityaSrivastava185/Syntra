@@ -28,7 +28,7 @@ const Product = () => {
               {deployItems.map((item) => (
                 <div
                   key={item.title}
-                  className="flex flex-col items-start justify-between border border-[#27272b] p-5 py-10 md:min-h-0 md:h-[500px] md:rounded-none md:border-x md:border-y-0"
+                  className="flex flex-col items-start justify-between border border-border-primary p-5 py-10 md:min-h-0 md:h-[500px] md:rounded-none md:border-x md:border-y-0"
                 >
                   <div>
                     <p className="text-3xl">{item.title}</p>
@@ -37,7 +37,7 @@ const Product = () => {
                   <div className="py-3 md:py-0 block md:hidden xl:block">
                     <p>{item.description}</p>
                   </div>
-                  <button className="bg-[#1a1a1e] text-foreground px-5 py-3 rounded-xl mt-3">
+                  <button className="bg-background-secondary text-foreground px-5 py-3 rounded-xl mt-3">
                     Explore More
                   </button>
                 </div>

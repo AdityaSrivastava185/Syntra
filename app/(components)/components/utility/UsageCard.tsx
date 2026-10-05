@@ -14,13 +14,13 @@ const UsageCard = ({
   return (
     <div>
       {/* Header */}
-      <div className="border-y border-[#27272b]">
+      <div className="border-y border-border-primary">
         <div className="flex flex-col md:flex-row min-h-26 w-full items-start md:itms-center justify-between px-4 py-6 md:px-6 gap-4 md:gap-0">
           <div>
             <p className="text-3xl md:text-4xl xl:text-5xl">{title}</p>
           </div>
 
-          <button className=" md:hidden xl:flex items-center gap-3 rounded-md bg-[#202023] px-4 py-3 text-lg w-full md:w-fit">
+          <button className=" md:hidden xl:flex items-center gap-3 rounded-md bg-background-tertiary px-4 py-3 text-lg w-full md:w-fit">
             <span className="text-md lg:text-base">{buttonText}</span>
 
             <span className="text-lg">

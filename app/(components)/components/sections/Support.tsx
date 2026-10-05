@@ -15,7 +15,7 @@ const Support = () => {
           </p>
         </div>
       </div>
-      <div className="w-full border-y border-[#27272b] px-4 xl:px-0">
+      <div className="w-full border-y border-border-primary px-4 xl:px-0">
         <Product/>
       </div>
     </section>
