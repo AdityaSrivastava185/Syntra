@@ -14,7 +14,7 @@ const FooterCta = () => {
           </div>
 
           <div className="mt-3 max-w-4xl">
-            <p className="text-3xl leading-tight sm:text-4xl xl:text-5xl">
+            <p className="text-2xl leading-tight sm:text-4xl xl:text-5xl">
               Transform software development, with complete control.
             </p>
           </div>
@@ -30,7 +30,7 @@ const FooterCta = () => {
         </div>
 
         {/* Buttons */}
-        <button className="flex w-full items-center justify-between gap-3 rounded-md bg-foreground px-4 py-3 text-base text-background sm:w-auto sm:text-lg">
+        <button className="flex w-full items-center justify-between gap-3 rounded-md bg-foreground p-3 md:px-4 md:py-3 text-sm text-background sm:w-auto sm:text-lg">
           <span>Contact for sales</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -30,9 +30,9 @@ const Workflows = () => {
     <section className="w-full border-b border-border-primary">
       <div className="container">
         <div className="px-4 xl:px-0 py-10 flex flex-col gap-7">
-          <div className="flex flex-col gap-7 xl:gap-10 md:max-w-lg xl:max-w-full">
-            <h2 className=" text-4xl xl:text-5xl">Your developer team's advantage</h2>
-            <p className="text-xl">
+          <div className="flex flex-col gap-3 sm:gap-7 xl:gap-10 md:max-w-lg xl:max-w-full">
+            <h2 className="text-2xl sm:text-4xl xl:text-5xl text-balance">Your developer team's advantage</h2>
+            <p className="text-sm sm:text-xl">
               Built for code generation and understanding, optimized for
               developer workflows.
             </p>
@@ -46,7 +46,7 @@ const Workflows = () => {
                   className="flex flex-col items-start justify-between h-[420px] bg-background-secondary p-7 border border-border-primary group md:hover:bg-transparent"
                 >
                   <div>
-                    <p className="text-2xl">{item.title}</p>
+                    <p className="text-2xl md:text-3xl">{item.title}</p>
                   </div>
                   <div>
                     <button className="flex flex-row items-center gap-1">
@@ -72,7 +72,7 @@ const Workflows = () => {
                     </button>
                     <div className="grid grid-rows-[0fr] transition-all duration-300 ease-in-out md:group-hover:grid-rows-[1fr]">
                       <div className="md:overflow-hidden">
-                        <p className="text-xl pt-2">{item.description}</p>
+                        <p className="text-sm md:text-xl pt-2">{item.description}</p>
                       </div>
                     </div>
                   </div>

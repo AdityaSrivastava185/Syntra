@@ -10,7 +10,7 @@ const navItems = [
   "Company",
 ];
 
-const navItemClass = "px-5 py-3";
+const navItemClass = "md:px-5 md:py-3 p-3";
 
 const Navbar = () => {
   return (
@@ -20,7 +20,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center divide-x divide-border-primary">
               <div className={`${navItemClass} border-l border-border-primary`}>
-                <h1>Syntra</h1>
+                <h1 className="text-sm md:text-base">Syntra</h1>
               </div>
 
               <div className="hidden xl:flex divide-x divide-border-primary border-r border-border-primary">
@@ -41,7 +41,7 @@ const Navbar = () => {
               </Link>
 
               <Link
-                className={`${navItemClass} bg-foreground text-background`}
+                className={`${navItemClass} bg-foreground text-background text-sm md:text-base`}
                 href=""
               >
                 Get in touch

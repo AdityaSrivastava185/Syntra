@@ -22,32 +22,32 @@ const Features = () => {
   return (
     <section className="w-full border-b border-border-primary">
       <div className="container">
-        <div className="px-4 xl:px-0 flex flex-col gap-7 pb-10 xl:pb-0 xl:py-10">
+        <div className="px-4 xl:px-0 flex flex-col gap-3 sm:gap-7 pb-10 xl:pb-0 xl:py-10">
           <div className="pt-10 md:max-w-lg xl:max-w-full">
-            <h2 className=" text-4xl xl:text-5xl">
+            <h2 className="text-2xl sm:text-4xl xl:text-5xl text-balance">
               Purpose-built coding models, at your fingertips.
             </h2>
           </div>
           <div className="md:max-w-lg xl:max-w-full">
-            <p className="text-xl">
+            <p className="text-sm sm:text-xl">
               Our unique mix of models delivers an unmatched combination of
               lightning-fast completions , deep code understanding
             </p>
           </div>
           <div className="md:border-y border-border-primary">
-            <div className="grid grid-cols-1 md:gap-0 md:grid-cols-3 px-4 md:px-0">
+            <div className="grid grid-cols-1 md:gap-0 md:grid-cols-3">
               {deployItems.map((item) => (
                 <div
                   key={item.title}
                   className="flex flex-col items-start justify-between border border-border-primary p-5 py-10 rounded-sm md:min-h-0 md:h-[500px] md:rounded-none md:border-x md:border-y-0"
                 >
                   <div>
-                    <p className="text-3xl">{item.title}</p>
+                    <p className="text-2xl sm:text-3xl">{item.title}</p>
                   </div>
 
                   <div className="py-3 md:py-0">
-                    <p>{item.description}</p>
-                     <button className="bg-background-secondary text-foreground px-5 py-3 rounded-xl mt-3">
+                    <p className="text-sm sm:text-base">{item.description}</p>
+                     <button className="bg-background-secondary text-foreground p-3 sm:px-5 sm:py-3 rounded-xl mt-3 text-sm sm:text-base">
                     Explore More
                   </button>
                   </div>

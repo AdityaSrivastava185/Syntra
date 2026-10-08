@@ -60,8 +60,8 @@ const Usages = () => {
     <section className="w-full">
       <div className="border-b border-border-primary">
         <div className="container">
-          <div className="py-7 pt-32 px-4 xl:px-0">
-            <h2 className="text-4xl xl:text-5xl">How enterprise teams use Syntra Vibe.</h2>
+          <div className="py-7 md:pt-32 px-4 xl:px-0">
+            <h2 className="text-2xl sm:text-4xl xl:text-5xl">How enterprise teams use Syntra Vibe.</h2>
           </div>
         </div>
       </div>

@@ -17,11 +17,11 @@ const UsageCard = ({
       <div className="border-y border-border-primary">
         <div className="flex flex-col md:flex-row min-h-26 w-full items-start md:itms-center justify-between px-4 py-6 md:px-6 gap-4 md:gap-0">
           <div>
-            <p className="text-3xl md:text-4xl xl:text-5xl">{title}</p>
+            <p className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl">{title}</p>
           </div>
 
-          <button className=" md:hidden xl:flex items-center gap-3 rounded-md bg-background-tertiary px-4 py-3 text-lg w-full md:w-fit">
-            <span className="text-md lg:text-base">{buttonText}</span>
+          <button className="flex flex-row items-center gap-3 rounded-md bg-background-tertiary px-4 py-3 text-sm sm:text-lg w-full md:w-fit">
+            <span className="text-sm sm:text-md lg:text-base">{buttonText}</span>
 
             <span className="text-lg">
               <svg
@@ -46,7 +46,7 @@ const UsageCard = ({
 
       {/* Description */}
       <div className="px-4 py-6 md:px-6">
-        <p className="text-lg md:text-xl">{description}</p>
+        <p className="text-sm sm:text-lg md:text-xl">{description}</p>
       </div>
 
       {/* Image + Tags */}
@@ -58,7 +58,7 @@ const UsageCard = ({
           alt={imageAlt}
           className="h-auto w-full object-contain"
         />
-        <p className="text-sm">
+        <p className="text-sm py-2">
           Image Source -
           <Link
             href={"https://mistral.ai/"}

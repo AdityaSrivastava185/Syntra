@@ -31,13 +31,13 @@ const Product = () => {
                   className="flex flex-col items-start justify-between border border-border-primary p-5 py-10 md:min-h-0 md:h-[500px] md:rounded-none md:border-x md:border-y-0"
                 >
                   <div>
-                    <p className="text-3xl">{item.title}</p>
+                    <p className="text:2xl sm:text-3xl">{item.title}</p>
                   </div>
 
                   <div className="py-3 md:py-0 block md:hidden xl:block">
-                    <p>{item.description}</p>
+                    <p className="text-sm sm:text-base">{item.description}</p>
                   </div>
-                  <button className="bg-background-secondary text-foreground px-5 py-3 rounded-xl mt-3">
+                  <button className="bg-background-secondary text-foreground p-3 sm:px-5 sm:py-3 rounded-xl mt-3 text-sm sm:text-base">
                     Explore More
                   </button>
                 </div>
